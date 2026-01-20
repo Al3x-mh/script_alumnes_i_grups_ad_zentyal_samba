@@ -58,35 +58,42 @@ niveles_2eso() {
 niveles=("2esoA" "2esoB" "2esoC" "2esoD")
 
 for nivel in "${niveles[@]}"; do
-    echo "Nivel: $nivel"
+ #   echo "Nivel: $nivel"
+
+alumnos "$nivel"
+
 done
 }
 
+#alumnos "_clase_ardillas_"
 niveles_2eso
 
 niveles_3eso() {
 niveles=("3esoA" "3esoB" "3esoC" "3esoD")
 
 for nivel in "${niveles[@]}"; do
-    echo "Nivel: $nivel"
+ #   echo "Nivel: $nivel"
+
+alumnos "$nivel"
+
 done
 }
 
+#alumnos "_clase_ardillas_"
 niveles_3eso
 
 niveles_4eso() {
 niveles=("4esoA" "4esoB" "4esoC" "4esoD")
 
 for nivel in "${niveles[@]}"; do
-    echo "Nivel: $nivel"
+ #   echo "Nivel: $nivel"
+
+alumnos "$nivel"
+
 done
 }
 
+#alumnos "_clase_ardillas_"
 niveles_4eso
-
-
-
-
-
 
 
